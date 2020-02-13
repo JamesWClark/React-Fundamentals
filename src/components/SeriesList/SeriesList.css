@@ -1,4 +1,24 @@
 .series-list {
     list-style-type: none;
     padding-left: 0;
+    width: 60%;
+    margin: auto; /* center */
+}
+
+.series-list li {
+    display: flex;
+    background-color: #eee;
+    border: solid #ccc 1px;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+}
+
+.series-list .show-image-placeholder {
+    flex: 1;
+}
+
+.series-list .show-info {
+    flex: 3;
+    text-align: left;
+    padding-left: 30px;
 }

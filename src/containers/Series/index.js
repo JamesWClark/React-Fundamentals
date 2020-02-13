@@ -16,6 +16,9 @@ class Series extends React.Component {
         .then(json => this.setState({ series: json }))
         console.log(event);
         console.log(event.target.value);
+        // 
+        console.log('update = ');
+        console.log(this.state.series);
     }
       
     render() {
